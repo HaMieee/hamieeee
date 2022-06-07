@@ -1,0 +1,55 @@
+h1{
+    color: aqua;
+    font-size: 20px;
+}
+#firt{
+    color: brown;
+}
+.second{
+    color:  yellow;
+    font-size: 16px;
+}
+/* cach dat bien trong css
+bien toan cuc duoc su dung moi noi */
+:root{
+    --text-color: green;
+}
+h4{
+    /* bien local  */
+    --my-color:blue;
+    color:var(--my-color);
+}
+h5{
+    color:var(--text-color);
+}
+h6{
+    color:var(--text-color);
+}
+/* don vi trong css
+  px:
+  width : cngang
+  height: chieu doc
+  font-size : co chu
+
+  % phu thuoc vao theo chua no
+  rem: phu thuoc vao the html
+  vw - , vh: bang chieu doc nang  toan man hinh
+  */
+  
+
+  /* padding trong css
+   padding : dem them vao 
+   tren phai duoi  trai  */
+
+
+   /* css boder( ben  ngoai padding)
+   solid mac dinh la 2px */
+
+   /* margin css lop ngoai cung ( khong cach)/*
+
+   /* box - sizing css */
+
+   /* css background - clip */
+
+   /*  css background - image*/
+   
